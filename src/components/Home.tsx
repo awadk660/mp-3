@@ -39,7 +39,9 @@ const StyledH2 = styled.h2`
 `;
 
 const StyledP = styled.p`
-    font-size: calc(1.5vw + 1.5vh);
+    font-size: calc(1.5vw + 1.5vh + 5px);
+    line-height: 1.5;
+    width: 70%;
 `;
 
 export default function Home() {
