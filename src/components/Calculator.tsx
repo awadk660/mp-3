@@ -1,5 +1,4 @@
 import { useState } from "react";
-import styled from "styled-components";
 
 export default function Calculator() {
     const [number1, setNumber1] = useState<number | string>("");

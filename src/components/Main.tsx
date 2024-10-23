@@ -1,4 +1,9 @@
+import { ReactNode } from "react";
 import styled from "styled-components";
+
+interface MainProps {
+    children: ReactNode;
+}
 
 const StyledMain = styled.main`
     width: 100vw;
@@ -9,7 +14,7 @@ const StyledMain = styled.main`
     }
 `;
 
-export default function Main({ children }) {
+export default function Main({ children } : MainProps) {
     return (
         <StyledMain>
             {children}
